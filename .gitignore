@@ -1,0 +1,8 @@
+__pycache__
+.idea
+.spyproject
+*key
+*crt
+tmp*
+db.sqlite3
+settings_mapbox.py
