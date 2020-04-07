@@ -121,8 +121,10 @@ $(document).ready(function(){
 
     var latlngs = [[34.5, 138.3], [35.5, 139.3], [35, 140.3]];
     var polyline = L.polyline(latlngs, {color: 'red'}).addTo(map);
-    polyline.on('click', function(){
-      console.log("click");
+    polyline.on('mouseover', function(){
+      console.log("mouseover");
+    }).on('mouseout', function(){
+      console.log("mouseout");
     });
 
 
